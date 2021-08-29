@@ -37,8 +37,6 @@ class SwingTest extends JFrame implements ActionListener{
 		 contentPane.add(panel,BorderLayout.CENTER);
 	}
 	
-	
-	
 	public void actionPerformed(ActionEvent e) {
 		String password = new String(pass.getPassword());
 		
