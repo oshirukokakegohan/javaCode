@@ -8,8 +8,8 @@ class SwingTest extends JFrame implements ActionListener{
 	JPanel secondPanel = new JPanel();
 	
 	public static void main(String args[]){
-    SwingTest frame = new SwingTest("Login");
-    frame.setVisible(true);
+        SwingTest frame = new SwingTest("Login");
+        frame.setVisible(true);
 	}
 	
 	SwingTest(String title){
